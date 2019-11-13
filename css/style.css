@@ -1,0 +1,259 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    color: #222222;
+}
+a, a:hover{
+    color: inherit;
+    text-decoration: none;
+}
+li{
+    list-style: none;
+}
+#header{
+    position: absolute;
+    width: 100%;
+    top:28px;
+}
+.logo span:before{
+    content:"";
+    position: absolute;
+    border: solid#ffffff;
+    width: 15px;
+    height: 15px;
+}
+#header ul{
+    display: flex;
+    color: white;
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.logo{
+    position: relative;
+    color: #fff;
+    font-weight: bold;
+    font-size: 28px;
+    text-transform: uppercase;
+}
+.list-items{
+    display: flex;
+    color: #fff;
+    margin-bottom: 0;
+}
+.list-item:not(:last-child){
+    margin-right: 10px;
+}
+#home{
+    background: rgba(0,0,0,.5) url("../img/d3fe7f11-3dbf-4f74-baa8-621043323df3.jpg") no-repeat center center;
+    background-blend-mode: darken;
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+}
+.header-tittle{
+    width: 830px;
+    height: 130px;
+    font-size: 150px;
+    color: #f5f5f5;
+    text-transform: uppercase;
+}
+.header-tittle span{
+    color: #fcac45;
+}
+.header-description{
+    font-size: 38px;
+    text-transform: uppercase;
+    color: #11749e;
+}
+.header-description span{
+    font-weight: bold;
+}
+.icon-down-open{
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 10%;
+    margin: auto;
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    border: 1px solid #f5f5f5;
+    border-radius: 50%;
+    color: #f5f5f5;
+
+}
+header img{
+    width: 100%;
+}
+.team-item img{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+section#team{
+    background: #000000;
+    color: #ffffff;
+    padding: 80px 0;
+    text-align: center;
+
+}
+
+.section-title{
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 25px;
+    margin-top: 20px;
+    position: relative;
+    margin-bottom: 93px;
+}
+#team .row{
+    display: flex;
+}
+.team-item a{
+    background: #2e85aa;
+    border-radius: 50%;
+}
+#blog-b{
+    display: flex;
+    text-align: center;
+}
+#blog-b .row{
+    display: flex;
+    justify-content: space-around;
+}
+.blog-title{
+    font-size: 38px;
+    text-transform: uppercase;
+}
+#blog-b i{
+    font-size: 30px;
+    text-transform: capitalize;
+}
+#colum .row{
+    display: flex;
+}
+#colum strong{
+    font-size: 25px;
+    text-transform: uppercase;
+}
+#colum p{
+    font-size: 15px;
+    text-transform: capitalize;
+}
+.colum-item img{
+    width: 100%;
+}
+.doc{
+    height: 339px;
+    background: #1d1d1d;
+    margin: 0;
+    padding: 61px 22px 0 95px;
+    color: #ffff;
+}
+.doc-2{
+    background: #f3f3f3;
+    color: #212121;
+    height: 339px;
+    margin: 0;
+    padding: 61px 22px 0 95px;
+}
+#blu{
+    background: #11749e;
+    padding: 150px 0;
+}
+#blu .row{
+    display: flex;
+}
+.pen{
+    display: flex;
+}
+#akita-dog{
+    background: url(../img/back.jpg)no-repeat top left / cover;
+}
+#akita-dog .row{
+    display: flex;
+    justify-items: center;
+    color: #ffffff;
+}
+#akita-dog strong{
+    font-size: 25px;
+    text-transform: uppercase;
+}
+#akita-dog p{
+    font-size: 15px;
+    text-transform: capitalize;
+}
+.top{
+    width: 370px;
+    height: 40px;
+    background: #11749e;
+    font-size: 15px;
+    text-transform: uppercase;
+}
+.meedle{
+    width: 400px;
+    height: 40px;
+    background: #11749e;
+    font-size: 15px;
+    text-transform: uppercase;
+}
+.bottom{
+    width: 430px;
+    height: 40px;
+    background: #11749e;
+    font-size: 15px;
+    text-transform: uppercase;
+}
+#our-team .row{
+    display: flex;
+}
+.our-item strong{
+    font-size: 20px;
+    text-transform: uppercase;
+    color: #11749e;
+}
+.our-item h3{
+    font-size: 15px;
+    text-transform: uppercase;
+    color: #222222;
+}
+#our-team img{
+    position: relative;
+}
+.unit{
+    position: absolute;
+    bottom: -10px;
+    left: 46px;
+    background: #ffff;
+    width: 190px;
+    text-align: center;
+}
+.team-item a{
+    background: #2e85aa;
+    border-radius: 50%;
+}
+#map{
+    background: #222222;
+}
+#map .container{
+    background: url("../img/map.png");
+    width: 1074px;
+    height: 50vh;
+}
+footer {
+    background: #222222;
+    display: flex;
+    padding: 20px;
+    justify-content: space-around;
+}
