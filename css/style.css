@@ -2,10 +2,14 @@
     margin: 0;
     padding: 0;
 }
+html{
+    scroll-behavior: smooth;
+}
 body{
     font-family: 'Open Sans', sans-serif;
     font-weight: 400;
     color: #222222;
+
 }
 a, a:hover{
     color: inherit;
@@ -46,14 +50,10 @@ nav{
     justify-content: space-around;
     align-items: center;
 }
-.header-content h1{
-    position: relative;
-}
+
 .header-content p{
-    position: absolute;
-    bottom: 280px;
+    margin-top: 30px;
     letter-spacing: 17px;
-    left: 534px;
 }
 .logo{
     position: relative;
@@ -70,6 +70,9 @@ nav{
 .list-item:not(:last-child){
     margin-right: 10px;
 }
+.mobil-menu{
+    display: flex;
+}
 #home{
     background: rgba(0,0,0,.5) url("../img/d3fe7f11-3dbf-4f74-baa8-621043323df3.jpg") no-repeat center center;
     background-blend-mode: darken;
@@ -82,11 +85,11 @@ nav{
 
 }
 .header-tittle{
-    width: 830px;
     height: 130px;
     font-size: 150px;
     color: #f5f5f5;
     text-transform: uppercase;
+    margin: 50px;
 }
 .header-tittle span{
     color: #fcac45;
@@ -105,12 +108,14 @@ nav{
     right: 0;
     bottom: 10%;
     margin: auto;
-    display: inline-block;
     width: 30px;
     height: 30px;
     border: 1px solid #f5f5f5;
     border-radius: 50%;
     color: #f5f5f5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 
 }
 header img{
@@ -129,12 +134,13 @@ header img{
     height: 100px;
     border-radius: 50%;
     position: absolute;
-    bottom: 69px;
-    margin: -44px;
+    bottom: 30px;
+    margin: 4px;
+    left: 30px;
 }
 section#team{
     color: #ffffff;
-    padding: 150px 0;
+    padding: 80px 0;
     text-align: center;
     background: #11749e;
 
@@ -176,6 +182,11 @@ section#team{
     font-size: 30px;
     text-transform: capitalize;
 }
+.blog-item h4{
+    text-transform: uppercase;
+    color:#11749e;
+    font-size: 18px;
+}
 #colum {
     display: flex;
 }
@@ -192,7 +203,7 @@ section#team{
 }
 
 .doc{
-    height: 596px;
+    height: 400px;
     background: #1d1d1d;
     margin: 0;
     padding: 182px 0 0 128px;
@@ -202,7 +213,7 @@ section#team{
 .doc-2{
     background: #f3f3f3;
     color: #212121;
-    height: 500px;
+    height: 400px;
     margin: 0;
     padding: 178px 0 0 125px;
 }
@@ -234,6 +245,7 @@ section#team{
 #akita-dog p{
     font-size: 15px;
     text-transform: capitalize;
+    margin-top: 70px;
 }
 .top{
     width: 370px;
